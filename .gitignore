@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Flask
+instance/
+.webassets-cache
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Uploaded Files
+uploads/*
+!uploads/.gitkeep
+
+# Output Files
+outputs/*
+!outputs/.gitkeep
+
+# Model Files (large files)
+*.caffemodel
+pose/mpi/*.caffemodel
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained Models
+trained_model_*.pkl
+
+# Training Data (optional - uncomment if you don't want to commit)
+# good/
+# bad/
+# Training Data/
+
+# Node modules (if you add any JS build tools)
+node_modules/
+
+# Documentation builds
+docs/_build/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
