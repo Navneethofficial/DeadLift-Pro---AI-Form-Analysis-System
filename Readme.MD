@@ -9,7 +9,6 @@
 
 **AI-Powered Deadlift Form Analysis using Computer Vision**
 </div>
----
 
 ## 📋 Overview
 
